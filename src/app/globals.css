@@ -107,3 +107,25 @@ body {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 9999px; }
 ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.4); }
+
+:root {
+  --background: 40 4% 96%;      /* warm paper #FAF7F1 */
+  --foreground: 221 22% 12%;    /* ink navy #171B24 */
+  --card: 40 20% 98%;
+  --card-foreground: 221 22% 12%;
+  --primary: 18 74% 53%;        /* terracotta #E0632E */
+  --primary-foreground: 40 20% 98%;
+  --muted: 40 10% 91%;
+  --muted-foreground: 221 10% 40%;
+  --destructive: 9 75% 40%;
+  --destructive-foreground: 40 20% 98%;
+  --border: 221 15% 87%;
+  --input: 221 15% 87%;
+  --ring: 18 74% 53%;
+
+  /* pipeline scale, used by the signature gradient */
+  --cold: 212 27% 49%;
+  --warm: 35 79% 57%;
+  --hot: 18 74% 53%;
+  --won: 137 21% 39%;
+}
